@@ -2,10 +2,4 @@ sudo: false
 language: java
 jdk:
 - oraclejdk8
-script:
-  apt-get install ant
-  ant -buildfile build.xml
-branches:
-  only:
-  - gh-pages
-  - /.*/
+
